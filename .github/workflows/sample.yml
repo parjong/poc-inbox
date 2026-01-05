@@ -1,0 +1,12 @@
+on:
+  workflow_dispatch:
+    # Optional: Add inputs if your workflow requires them
+    inputs:
+      url:
+        required: true
+
+jobs:
+  show:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo '${{ github.event.inptus.url }}'
