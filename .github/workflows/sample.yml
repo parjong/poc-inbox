@@ -9,4 +9,4 @@ jobs:
   show:
     runs-on: ubuntu-latest
     steps:
-      - run: echo '${{ github.event.inptus.url }}'
+      - run: echo '${{ github.event.inputs.url }}'
