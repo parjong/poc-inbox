@@ -1,3 +1,5 @@
+name: 'Add'
+
 on:
   workflow_dispatch:
     # Optional: Add inputs if your workflow requires them
